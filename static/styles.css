@@ -1,0 +1,44 @@
+body{
+  background: linear-gradient(90deg, white, #ff4c68, #ef8172);
+  background: linear-gradient(90deg, #c1c4cc, #707373, #fffff4);
+  background-size: 180% 180%;
+  background-image: url("cashcraftlight.jpg");
+  background-size : contain;
+  background-color: #cccccc;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.navbar{
+    background: linear-gradient(300deg, #40bbf4, #a877f4, #495594);
+    background: linear-gradient(300deg, #c1c4cc, #707373, #fffff4);
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*
+.tiledBackground {
+  background-image: url("cashcraft.jpg");
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+}
+*/
+
+.index2{
+    background: linear-gradient(90deg, #ebe3ce, #f3e8dc, #ebe3ce);
+
+    background-size : contain;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
